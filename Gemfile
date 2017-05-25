@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'devise'
+
 gem 'starter_generators', :git => "http://github.com/rbetina/starter_generators.git"
+
+gem 'bcrypt', platforms: :ruby
 
 gem 'kaminari'
 
